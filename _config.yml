@@ -1,54 +1,24 @@
 # Config
 # ========================================================================================
 
-# IMPORTANT: Set the URL of your page.
-# Set to https://<username>.github.io when hosting on GitHub Pages
-# (unless you are using a custom domain).
-url:                   https://qwtel.com
-
-# IMPORTANT: Set The "base URL" of your site.
-#
-# When hosting your site in a subdirectory of a server, set to /<name of directory>
-# (with leading /, but without the < >)
-# Use the empty string '' otherwise.
-#
-# When using GitHub Pages, set to '' when hosting a user- or organization page,
-# i.e. when the name of the repository looks like <username>.github.io.
-# Otherwise, set to /<name of repository> (with leading /, but without the < >).
-baseurl:               /hydejack-starter-kit
-
-# Language of your content in 2-letter code, e.g.: en, de.
-# You may also provide a location, e.g.: en-us, de_AT.
+url:                   https://mungdane.github.io
+baseurl:               ''
 lang:                  en
+title:                 mungdane blog
 
-# The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack Starter Kit
-
-# A short description (~150 chars) of the page used for the meta description tag.
-# Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
-  Combines the best of static sites and modern web apps.
-  Open `_config.yml` to edit this text.
+  메인 description
 
-# A shorter description for the sidebar.
 tagline:               >
-  A Jekyll theme with JavaScript powers.
-  Open `_config.yml` to edit this text.
+  사이드바 description
 
-# A list of keywords for your blog.
-keywords:              []
+keywords:              [키워드1, 키워드2]
 
-# Used by jekyll-seo-tag.
 logo:                  /assets/icons/icon.png
 
-# This should be the same author as first entry in `_data/authors.yml`.
-# Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
-  # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  name:                mungdane
+  email:               mungdane@gmail.com
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2017. All rights reserved.
@@ -81,17 +51,8 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
-# Setting a disqus shortname will enable the comment section on
-# pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
-
-# Set your Google Analytics id to receive `pageview` events.
-# To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
-
-# Setting a tinyletter username will enable the newsletter subscription box.
-# PRO version only!
-# tinyletter:            <tinyletter_username>
+disqus:                mungdane-github-io
+google_analytics:      UA-110662087-1
 
 
 # Hydejack Settings
@@ -185,7 +146,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-remote_theme: qwtel/hydejack@gem-7.4.2
+remote_theme: qwtel/hydejack@gem-7.4.1
 
 
 # SEO Tag
